@@ -53,7 +53,6 @@ But this image is on the right:
 In order to use your own theme, you can edit the [css/main.css](css/main.css) file, and register it in the Marp themes in your Visual Studio Code settings:
 
 ```json
-// Please put `.vscode/settings.json` on your workspace
 {
     "markdown.marp.themes": [
         "https://example.com/foo/bar/custom-theme.css",
