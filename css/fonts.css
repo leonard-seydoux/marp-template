@@ -1,0 +1,5 @@
+/* These are IPGP colors. You can change to your own colors. */
+:root {
+    --font-primary: 'Roboto', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+}
