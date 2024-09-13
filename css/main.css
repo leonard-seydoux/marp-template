@@ -93,14 +93,15 @@ section {
     padding-top: 130px;
 }
 
-ul,
+
 p,
 div {
     text-align: center;
     margin: auto;
-    text-align: left;
-    text-align: center;
-    flex-basis: 45%;
+    flex-basis: 40%;
+    flex-shrink: 2;
+    flex-grow: 2;
+
 }
 
 pre {
@@ -109,10 +110,12 @@ pre {
     margin: auto;
     background-color: var(--color-light);
     border: none;
+    padding: 30px;
 }
 
 p:has(img) {
-    flex-grow: 4;
+    flex-grow: 2;
+    flex-basis: 45%;
 }
 
 li {
