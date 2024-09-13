@@ -12,11 +12,7 @@ iframe {
     border: none;
 }
 
-code,
-pre {
-    font-family: var(--font-mono);
-    flex-basis: 100%;
-}
+
 
 h1 {
     color: var(--color-primary);
@@ -87,37 +83,46 @@ a:has(code)>img {
 
 
 section {
-    color: var(--color-body);
-    padding: 60px;
-    padding-top: 130px;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    align-content: space-around;
+    justify-content: space-around;
+    color: var(--color-body);
+    padding-top: 130px;
 }
 
 ul,
-p:has(> img),
+p,
 div {
-    display: inline;
-    flex-grow: 0;
-    flex-basis: 44%;
     text-align: center;
+    margin: auto;
+    text-align: left;
+    text-align: center;
+    flex-basis: 45%;
+}
+
+pre {
+    font-family: var(--font-mono);
+    flex-basis: 45%;
+    margin: auto;
+    background-color: var(--color-light);
+    border: none;
+}
+
+p:has(img) {
+    flex-grow: 4;
 }
 
 li {
     text-align: left;
-}
-
-img {
-    text-align: center;
+    padding: 0;
 }
 
 blockquote {
     color: var(--color-secondary);
     border-left: none;
-    padding-top: 0px;
 }
 
 section::after,
@@ -127,6 +132,8 @@ footer a {
     color: var(--color-footer);
     text-decoration: none;
 }
+
+
 
 section.titlepage {
     background-color: var(--color-sable);
@@ -156,7 +163,6 @@ section.titlepage::after {
     text-align: left;
 }
 
-/* Target images rendered from Markdown inside the .logo class */
 .logo p {
     display: inline-flex;
     gap: 30px;
@@ -173,27 +179,23 @@ section.titlepage::after {
 .frames ul {
     list-style: none;
     display: flex;
-    flex-grow: 1;
-    flex-basis: 100%;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
-    align-items: center;
+    align-items: stretch;
+    align-content: space-between;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 
 .frames ul li {
-    display: inline-flex;
     padding: 20px;
     background-color: var(--color-light);
-    /* border: 2px solid var(--color-body); */
     border-radius: 20px;
     text-align: center;
-    object-fit: contain;
-    flex-grow: 1;
+    flex-grow: 2;
 
 }
 
 .frames ul li:first-child {
-    margin-top: 5px;
+    margin-top: 7px;
 }

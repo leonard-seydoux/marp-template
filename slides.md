@@ -33,8 +33,7 @@ You can contact me at seydoux@ipgp.fr.
 - The continents are colored in green
 - The oceans are colored in blue
 
-
-![width:800](https://images.twinkl.co.uk/tr/raw/upload/u/ux/earth-parents-wiki_ver_1.jpg)
+![width:400px](https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp) 
 Drawing of the Earth 
 
 > It confirms that Earth isn't flat (sorry flat-earthers)
@@ -76,6 +75,7 @@ Drawing of the Earth
 
 ## A slide with code
 
+
 ```python
 import numpy as np
 
@@ -87,7 +87,15 @@ y = my_function(x)
 plt.plot(x, y)
 ```
 
-This code allows to plot the sine function as a function of time.
+![width:500](https://media.geeksforgeeks.org/wp-content/uploads/20221120032916/2.png)
+
+<span>
+
+- This code allows to plot the sine function as a function of time
+- The plot is shown on the right
+- The plotting library used is `matplotlib`
+
+</span>
 
 --- 
 
