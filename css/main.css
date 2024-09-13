@@ -89,7 +89,7 @@ section {
     align-items: center;
     align-content: space-around;
     justify-content: space-around;
-    color: var(--color-body);
+    color: s var(--color-body);
     padding-top: 130px;
 }
 
