@@ -33,7 +33,8 @@ You can contact me at seydoux@ipgp.fr.
 - The continents are colored in green
 - The oceans are colored in blue
 
-![width:400px](https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp) 
+![width:300px](images/logo/ipgp-upcite.svg) 
+![width:300px](images/logo/ipgp-upcite.svg) 
 Drawing of the Earth 
 
 > It confirms that Earth isn't flat (sorry flat-earthers)
